@@ -15,7 +15,7 @@ public class DictionaryActivity extends Activity {
 	private Button       btnSearch         = null;
 	private TextView     tvResult          = null;
 	private final String DATABASE_FILENAME = "dictionary.txt";
-	private final String DATABASE_PATH     = android.os.Environment.getExternalStorageDirectory().getAbsolutePath()+ "/download";
+	private final String DATABASE_PATH     = android.os.Environment.getExternalStorageDirectory().getAbsolutePath() + "/download";
 
 	SQLiteDatabase database;
 	
